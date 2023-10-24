@@ -11,7 +11,7 @@ const Nome = () => {
 
 const styles = StyleSheet.create({
   nomeContainer: {
-    flex: 4,
+    flex: 10,
     justifyContent: 'flex-start', // Alinhar o título para a parte superior
     alignItems: 'center',
     marginTop: 140, // Adicione um marginTop para mover o título mais para cima

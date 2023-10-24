@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     flex: 1,
     
     alignItems: 'center',
-    paddingTop: 20,
+    paddingTop: 40,
   },
   logo: {
     width: 150, // Largura desejada para o logotipo

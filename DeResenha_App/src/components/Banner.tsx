@@ -21,10 +21,10 @@ const Banner = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 2,
     alignItems: 'center',
     justifyContent: 'flex-end', // Alinhe o conteúdo na parte inferior
-    marginBottom: 40, // Adicione uma margem inferior de 30
+    marginBottom: 2, // Adicione uma margem inferior de 30
   },
   logo: {
     width: 320,
