@@ -8,7 +8,8 @@ const{Screen, Navigator} = createNativeStackNavigator();
 export function StackRoutes(){
     return (
         <Navigator>
-            <Screen name="ScreenA" component={ScreenA}/>
+            <Screen name="ScreenA" options= {{title : "De Resenha SC" }} component={ScreenA}   />
+            {/**Pra esconder o tile uso: options={{headerShown: false}} */}
             <Screen name="ScreenB" component={ScreenB}/>
         </Navigator>    
     )
