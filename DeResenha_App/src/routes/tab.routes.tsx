@@ -3,6 +3,12 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 import React from 'react';
 import { ScreenA } from '../screens/ScreenA';
 import { ScreenB } from '../screens/ScreenB';
+import { Agendamentos } from '../screens/Agendamentos';
+import { Complexo } from '../screens/Complexo';
+import { Localizacao } from '../screens/Localizacao';
+import { Redes } from '../screens/Redes';
+import { ResenhaFc } from '../screens/ResenhaFc';
+import { SoccerSchool } from '../screens/SoccerSchool';
 
 
 const{Screen, Navigator} = createBottomTabNavigator();
@@ -34,6 +40,8 @@ export function TabRoutes(){
 
 
             <Screen name="ScreenB" component={ScreenB}/>
+
+            
         </Navigator>    
     )
 }

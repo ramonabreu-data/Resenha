@@ -3,6 +3,12 @@ export declare global{
         interface RootParamList{
             ScreenA: undefined;
             ScreenB: undefined;
+            Agendamentos: undefined;
+            Complexo:  undefined;
+            Localizacao: undefined;
+            Redes: undefined;
+            ResenhaFC: undefined;
+            SoccerSchool: undefined;
         }
     }
 }
